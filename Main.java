@@ -37,9 +37,6 @@ public class Main {
 
     
     public static void main(String[] args) {
-        //  mozProxyAuth("apetrov","Mother1965");
-        //Student s1 = new Student();
-       // s1.showData();
         Parser ParsSite = new Parser();
         Argument arg = new Argument();
         arg.CheckHelp(args); //проверяем нужно ли выводить справку, если нужно - выводим
